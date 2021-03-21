@@ -1,0 +1,88 @@
+*{
+  font-family: 'Cinzel', serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-image:linear-gradient(27deg,#004E95 50%,#004330 50%);
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+  width: 100%;
+  
+}
+.maindiv{
+  width:350px;
+  height: 400px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  background: #000;
+  transform: translate(-50%,-50%);
+  background-image:linear-gradient(27deg,#004330 50%,#004E95 50%);
+  box-sizing: border-box;
+}
+
+.logoAv{
+  width:120px;
+  height:120px;
+  border-radius: 50%;
+  position: relative;
+  top:-60px;
+  left:calc((350px - 120px) / 2 )
+}
+h2{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2em;
+  word-spacing: 10px;
+  margin-top: -50px !important;
+  margin-bottom: 50px !important;
+  text-shadow: -2px 2px 1px #00A4C6;
+}
+.inputbox{
+  width: calc(100% - 40px);
+  height: 30px;
+  display: block;
+  margin: auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+::placeholder{
+  letter-spacing: 2px;
+  color: black;
+}
+button{
+  width: calc(100% - 40px);
+  height: 30px;
+  display: block;
+  margin: auto !important;
+  background-color: #0A84C6;
+  border: none;
+  color:white;
+  
+}
+.Forget{
+  width: calc(100% - 40px);
+  height: 30px !important;
+  display: block;
+  margin: auto;
+  color:white;
+  background-color: dodgerblue;
+  text-transform: uppercase;
+  font-size:0.8em !important;
+  text-align: right;
+  padding-right: 20px;
+
+}
+.Menubar{
+  width: 10%;
+  line-height: 100vh;
+  background-color: #20232a;
+  
+}
+a.active_class{
+  color: #ffff;
+  border-bottom: 1px solid red;
+}
